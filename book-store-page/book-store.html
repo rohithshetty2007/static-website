@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="book-store.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionBookHome">
+        <div class="popular-book-bg-container">
+            <h1 class="heading">Popular Book</h1>
+            <div class="popular-book-container d-flex flex-row ">
+
+                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/book-apj-img.png" class="image" />
+
+                <div class=" popular-book-short-details-contaiener">
+                    <h1 class="heading1">Wings of Fire</h1>
+                    <p class="description">An Autobiography of abdul kalam</p>
+                    <p class="author">by arun Tiwari</p>
+                    <button class="button btn btn-primary" onclick="display('sectionFireBook')">Read Now</button>
+                </div>
+            </div>
+            <h1 class="recommended-book-heading">Recommended Books</h1>
+            <div class="recommended-book-container d-flex flex-row">
+                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="recommended-book-image" />
+                <div class="recommended-book-details-container">
+                    <h1 class="recommended-book-name">The 3 mistakes of my life</h1>
+                    <p class="recommended-book-description">Indian author<br />by chetan bagat</p>
+                    <button class="button btn btn-primary" onclick="display('sectionbagat')">Read Now</button>
+                </div>
+            </div>
+            <div class="recommended-book-container d-flex flex-row">
+                <img src=" https://d2clawv67efefq.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="recommended-book-image" />
+                <div class="recommended-book-details-container">
+                    <h1 class="recommended-book-name">Harry Potter</h1>
+                     
+                    <p class="recommended-book-description">and the sorcerer's stone<br />by j.k rowling</p>
+                    <button class="button btn btn-primary" onclick="display('sectionHarryPotter')">Read Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFireBook">
+        <div class="book-details-page">
+            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/book-apj-img.png" class="book-details-page-image" />
+            <h1 class="book-name">Wings of Fire</h1>
+            <p class="author">by arun Tiwari</p>
+            <p class="book-description">Every common man who by his sheer grit and hard woek achieves sucdess shoukd share his story with the rest for they may find inspiration and strength to go on.in his story.the wings of fire is one such autobiography by visionary scienst dr apj abdul kalam. </p>
+             <div class="d-flex flex-row justify-content-center">
+             <button class="button btn btn-warning" onclick="display('sectionBookHome')">Back</button>
+             <button class="button btn btn-primary" >buy Now</button>
+             </div>
+        </div>
+    </div>
+    <div id="sectionbagat">
+        <div class="book-details-page">
+            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="book-details-page-image" />
+            <h1 class="book-name">The 3 mistake of my life</h1>
+            <p class="author">by chetan bagat</p>
+            <p class="book-description">Every common man who by his sheer grit and hard woek achieves sucdess shoukd share his story with the rest for they may find inspiration and strength to go on.in his story.the wings of fire is one such autobiography by visionary scienst dr apj abdul kalam. </p>
+            <div class="d-flex flex-row justify-content-center">
+            <button class="button btn btn-warning" onclick="display('sectionBookHome')">Back</button>
+             <button class="button btn btn-primary" >buy Now</button>
+             </div>
+        </div>
+    </div>
+    <div id="sectionHarryPotter">
+        <div class="book-details-page">
+            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="book-details-page-image" />
+            <h1 class="book-name">Harry potter</h1>
+            <p class="author">by jk rowling</p>
+            <p class="book-description">Every common man who by his sheer grit and hard woek achieves sucdess shoukd share his story with the rest for they may find inspiration and strength to go on.in his story.the wings of fire is one such autobiography by visionary scienst dr apj abdul kalam. </p>
+            <div class="d-flex flex-row justify-content-center">
+            <button class="button btn btn-warning" onclick="display('sectionBookHome')">Back</button>
+             <button class="button btn btn-primary">buy Now</button>
+             </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
